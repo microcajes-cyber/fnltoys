@@ -139,7 +139,7 @@ export default function B2BWholesaleSection() {
             </div>
 
             {/* Facility contact */}
-            <div className="mt-8 p-5 rounded-2xl border border-white/10 bg-white/5">
+            <div className="mt-8 p-6 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-primary/30 transition-all duration-300">
               <p className="text-xs text-white/40 font-mono mb-3 uppercase tracking-widest">
                 Facility & B2B Contact
               </p>
@@ -197,7 +197,7 @@ export default function B2BWholesaleSection() {
                     value={formState.full_name}
                     onChange={handleChange}
                     placeholder="e.g., Maria Santos, Procurement Manager"
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/30 focus:outline-none focus:border-primary transition-colors"
+                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-primary focus:bg-white/15 focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 shadow-sm"
                   />
                 </div>
 
@@ -213,7 +213,7 @@ export default function B2BWholesaleSection() {
                     value={formState.company_name}
                     onChange={handleChange}
                     placeholder="e.g., Early Childhood Learning Center"
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/30 focus:outline-none focus:border-primary transition-colors"
+                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-primary focus:bg-white/15 focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 shadow-sm"
                   />
                 </div>
 
@@ -229,7 +229,7 @@ export default function B2BWholesaleSection() {
                     value={formState.email}
                     onChange={handleChange}
                     placeholder="name@company.com"
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/30 focus:outline-none focus:border-primary transition-colors"
+                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-primary focus:bg-white/15 focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 shadow-sm"
                   />
                 </div>
 
@@ -243,7 +243,7 @@ export default function B2BWholesaleSection() {
                     required
                     value={formState.inquiry_type}
                     onChange={handleChange}
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-primary transition-colors appearance-none"
+                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 text-sm text-white focus:outline-none focus:border-primary focus:bg-white/15 focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 appearance-none shadow-sm"
                   >
                     <option value="" disabled className="bg-foreground">
                       Select inquiry type...
@@ -268,13 +268,13 @@ export default function B2BWholesaleSection() {
                     value={formState.quantity_and_message}
                     onChange={handleChange}
                     placeholder="Please describe your quantity requirements or partnership scope..."
-                    className="w-full bg-white/10 border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/30 focus:outline-none focus:border-primary transition-colors resize-none"
+                    className="w-full bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-4 py-3 text-sm text-white placeholder-white/40 focus:outline-none focus:border-primary focus:bg-white/15 focus:shadow-lg focus:shadow-primary/20 transition-all duration-300 resize-none shadow-sm"
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full bg-primary text-primary-foreground py-3.5 rounded-xl font-semibold text-sm tracking-wide hover:opacity-90 transition-all duration-300 shimmer-btn relative overflow-hidden flex items-center justify-center gap-2 mt-1"
+                  className="w-full bg-primary text-primary-foreground py-3.5 rounded-xl font-semibold text-sm tracking-wide hover:opacity-90 hover:scale-105 hover:shadow-xl transition-all duration-300 shimmer-btn btn-premium shadow-lg relative overflow-hidden flex items-center justify-center gap-2 mt-1"
                 >
                   Send Wholesale Inquiry
                   <Icon name="PaperAirplaneIcon" size={16} variant="solid" />
@@ -312,7 +312,7 @@ function ProcessCard({
   return (
     <div
       ref={ref}
-      className={`reveal p-5 rounded-2xl border border-white/10 bg-white/5 hover:bg-white/10 transition-all duration-500 ${
+      className={`reveal p-5 rounded-2xl border border-white/10 bg-white/5 backdrop-blur-sm hover:bg-white/10 hover:border-primary/30 hover:shadow-lg hover:shadow-primary/10 transition-all duration-500 ${
         visible ? 'reveal-animate' : 'opacity-0'
       }`}
       style={{ animationDelay: `${index * 100}ms` }}

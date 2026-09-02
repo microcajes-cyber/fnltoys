@@ -99,7 +99,7 @@ export default function HeroSection() {
             className="object-cover object-center" />
           
             {/* Scrim: dark overlay for white text legibility */}
-            <div className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/40 to-black/70" />
+            <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/75" />
           </div>
         )}
       </div>
@@ -111,18 +111,18 @@ export default function HeroSection() {
       {/* Hero content */}
       <div className="relative z-10 flex flex-col justify-center min-h-screen pt-20 pb-16 px-4 sm:px-6 max-w-6xl mx-auto w-full">
         {/* Eyebrow label */}
-        <div className="flex items-center gap-2 mb-6">
-          <span className="w-2 h-2 rounded-full bg-primary animate-pulse-soft" />
-          <span className="section-label text-white/80">
+        <div className="flex items-center gap-3 mb-8 animate-fade-in">
+          <span className="w-3 h-3 rounded-full bg-gradient-to-r from-primary to-accent animate-pulse-soft" />
+          <span className="section-label text-white/90 font-medium tracking-widest">
             Proudly Made in Bulacan, Philippines
           </span>
         </div>
 
         {/* Massive display headline */}
-        <h1 className="font-display text-hero-display font-bold leading-none tracking-tight text-white mb-6">
+        <h1 className="font-display text-hero-display font-bold leading-none tracking-tight text-white mb-8 animate-scale-in">
           FNL
           <br />
-          <span className="italic text-primary">Toys</span>
+          <span className="italic text-transparent bg-clip-text bg-gradient-to-r from-primary via-accent to-primary">Toys</span>
         </h1>
 
         {/* Slide headline — transitions with slide */}
@@ -148,13 +148,14 @@ export default function HeroSection() {
 
         {/* Marketplace CTA buttons */}
         <div className="flex flex-wrap gap-3 mb-12">
-          {marketplaceLinks.map((m) =>
+          {marketplaceLinks.map((m, idx) =>
           <a
             key={m.platform}
             href={m.href}
             target="_blank"
             rel="noopener noreferrer"
-            className={`inline-flex items-center gap-2 px-5 py-3 rounded-full text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-90 hover:scale-105 shimmer-btn relative overflow-hidden ${m.bg} ${m.text}`}>
+            className={`inline-flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold tracking-wide transition-all duration-300 hover:opacity-90 hover:scale-105 hover:shadow-xl shimmer-btn relative overflow-hidden shadow-lg ${m.bg} ${m.text} animate-fade-in`}
+            style={{ animationDelay: `${idx * 100}ms` }}>
             
               {m.label}
             </a>

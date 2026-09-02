@@ -115,7 +115,7 @@ function ProductCard({ product, index }: {product: Product;index: number;}) {
   return (
     <div
       ref={ref}
-      className={`reveal product-card-hover bg-card rounded-2xl border border-border overflow-hidden group transition-all duration-700 ${
+      className={`reveal product-card-hover bg-card rounded-2xl border border-border overflow-hidden group transition-all duration-700 card-premium hover:border-primary/40 shadow-sm ${
       visible ? 'reveal-animate opacity-100' : 'opacity-0'}`
       }
       style={{ animationDelay: `${index * 100}ms` }}>
@@ -129,9 +129,9 @@ function ProductCard({ product, index }: {product: Product;index: number;}) {
           sizes="(max-width: 768px) 100vw, 50vw"
           className="object-cover transition-transform duration-700 group-hover:scale-105" />
         
-        <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
         {/* Highlight badge */}
-        <div className="absolute top-3 left-3 bg-primary text-primary-foreground text-xs font-semibold px-3 py-1 rounded-full">
+        <div className="absolute top-4 left-4 badge-premium text-primary text-xs font-bold px-4 py-2 rounded-full shadow-md backdrop-blur-sm">
           {product.highlight}
         </div>
       </div>
@@ -170,7 +170,7 @@ function ProductCard({ product, index }: {product: Product;index: number;}) {
                 href={product.links[key]}
                 target="_blank"
                 rel="noopener noreferrer"
-                className={`flex-1 min-w-[80px] inline-flex items-center justify-center px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all duration-300 hover:opacity-85 hover:scale-105 shimmer-btn relative overflow-hidden ${meta.bg} ${meta.text}`}>
+                className={`flex-1 min-w-[80px] inline-flex items-center justify-center px-3 py-2 rounded-lg text-xs font-semibold tracking-wide transition-all duration-300 hover:opacity-90 hover:scale-105 shimmer-btn btn-premium relative overflow-hidden ${meta.bg} ${meta.text}`}>
                 
                 {meta.label}
               </a>);
@@ -239,7 +239,7 @@ export default function FeaturedProducts() {
         </div>
 
         {/* Bottom CTA bar */}
-        <div className="mt-10 flex flex-col sm:flex-row items-center justify-between gap-4 p-5 sm:p-6 bg-muted rounded-2xl border border-border">
+        <div className="mt-12 flex flex-col sm:flex-row items-center justify-between gap-6 p-6 sm:p-8 bg-gradient-to-r from-muted via-muted to-primary/5 rounded-2xl border border-border card-premium hover:shadow-md transition-all duration-300">
           <div>
             <p className="font-semibold text-foreground text-sm">
               Shop all products on our official stores
@@ -259,7 +259,7 @@ export default function FeaturedProducts() {
               href={m.href}
               target="_blank"
               rel="noopener noreferrer"
-              className={`px-4 py-2 rounded-full text-xs font-semibold tracking-wide transition-all hover:opacity-90 shimmer-btn relative overflow-hidden ${m.bg} ${m.text}`}>
+              className={`px-5 py-2.5 rounded-full text-xs font-semibold tracking-wide transition-all hover:opacity-90 hover:scale-105 shimmer-btn btn-premium shadow-sm relative overflow-hidden ${m.bg} ${m.text}`}>
               
                 {m.label}
               </a>

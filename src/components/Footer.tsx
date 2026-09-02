@@ -52,7 +52,7 @@ export default function Footer() {
                   href={l.href}
                   target={l.href.startsWith('http') ? '_blank' : undefined}
                   rel={l.href.startsWith('http') ? 'noopener noreferrer' : undefined}
-                  className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors min-h-[44px] flex items-center"
+                  className="text-sm font-medium text-muted-foreground hover:text-primary hover:underline underline-offset-4 transition-colors duration-300 min-h-[44px] flex items-center"
                 >
                   {l.label}
                 </a>
@@ -66,7 +66,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={s.platform}
-                  className="w-10 h-10 flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-foreground hover:border-foreground transition-colors"
+                  className="w-10 h-10 flex items-center justify-center rounded-full border border-border text-muted-foreground hover:text-primary hover:border-primary hover:bg-primary/10 transition-all duration-300 hover-lift"
                 >
                   <Icon name={s.icon} size={18} variant="outline" />
                 </a>

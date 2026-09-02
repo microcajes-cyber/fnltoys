@@ -52,11 +52,31 @@ module.exports = {
         'spin-slow': 'spin 18s linear infinite',
         'float':     'float 5s ease-in-out infinite',
         'pulse-soft':'pulse 3s cubic-bezier(0.4,0,0.6,1) infinite',
+        'fade-in':   'fade-in 0.6s ease-out forwards',
+        'scale-in':  'scale-in 0.7s cubic-bezier(0.34, 1.56, 0.64, 1) forwards',
+        'slide-up':  'slide-up 0.6s ease-out forwards',
+        'glow':      'glow 2s ease-in-out infinite',
       },
       keyframes: {
         float: {
           '0%, 100%': { transform: 'translateY(0)' },
           '50%':      { transform: 'translateY(-8px)' },
+        },
+        'fade-in': {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        'scale-in': {
+          '0%': { opacity: '0', transform: 'scale(0.95)' },
+          '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+        'slide-up': {
+          '0%': { opacity: '0', transform: 'translateY(20px)' },
+          '100%': { opacity: '1', transform: 'translateY(0)' },
+        },
+        'glow': {
+          '0%, 100%': { 'box-shadow': '0 0 5px rgba(0, 127, 255, 0.3)' },
+          '50%': { 'box-shadow': '0 0 20px rgba(0, 127, 255, 0.6)' },
         },
       },
     },

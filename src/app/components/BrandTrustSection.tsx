@@ -61,7 +61,7 @@ function TrustBadge({ badge, index }: {badge: typeof trustBadges[0];index: numbe
       }
       style={{ animationDelay: `${index * 80}ms` }}>
       
-      <div className={`w-11 h-11 rounded-xl flex items-center justify-center ${badge.bg}`}>
+      <div className={`w-11 h-11 rounded-xl flex items-center justify-center ${badge.bg} shadow-sm`}>
         <Icon name={badge.icon} size={22} variant="outline" className={badge.color} />
       </div>
       <div>
