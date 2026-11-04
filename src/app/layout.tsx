@@ -28,7 +28,12 @@ export const metadata: Metadata = {
   description:
     'FNL Toys crafts non-toxic, durable children\'s play fences, ocean balls, bookshelves, and storage racks — proudly manufactured in Bulacan, Philippines.',
   icons: {
-    icon: [{ url: '/favicon.ico', type: 'image/x-icon' }],
+    icon: [
+      { url: '/favicon.ico', type: 'image/x-icon' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
   },
 };
 
