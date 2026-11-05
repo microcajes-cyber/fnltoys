@@ -44,7 +44,7 @@ const marketplaceLinks = [
 {
   platform: 'Lazada',
   label: 'Buy on Lazada',
-  href: 'https://www.lazada.com.ph/shop/fnl-toys/?spm=a2o4l.pdp_revamp.seller.1.24a51e72uLyMUh&itemId=5242481635&channelSource=pdp',
+  href: 'https://www.lazada.com.ph/shop/fnl-toys',
   bg: 'bg-[#0F146D]',
   text: 'text-white'
 }];

@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import HeroSection from '@/app/components/HeroSection';
+import ElevenElevenBanner from '@/app/components/ElevenElevenBanner';
 import FeaturedProducts from '@/app/components/FeaturedProducts';
 import BrandTrustSection from '@/app/components/BrandTrustSection';
 import B2BWholesaleSection from '@/app/components/B2BWholesaleSection';
@@ -15,6 +16,7 @@ export default function LandingPage() {
         aria-hidden="true"
       />
       <Header />
+      <ElevenElevenBanner />
       <HeroSection />
       <FeaturedProducts />
       <BrandTrustSection />
