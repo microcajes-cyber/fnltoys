@@ -5,7 +5,7 @@ import Icon from '@/components/ui/AppIcon';
 const quickLinks = [
   { label: 'Shopee Official Store', href: 'https://shopee.ph/fnl_toys?categoryId=100632&entryPoint=ShopByPDP&itemId=19595045327' },
   { label: 'TikTok Official Shop',  href: 'https://www.tiktok.com/@fnltoys?fbclid=IwY2xjawUEldBwZG9mBWV4dG4DYWVtAjEwAGJyaWQRMU9JWm1HaTVJT3o4c2NqOXFzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEe0cOOgcPVmEYiHgNEI-6mVaqy1Vk_KCo3-kII3YL1E9D03cCntKhIafV4WiM_aem_hDZIcRWLPPTyS9mYArlKVg' },
-  { label: 'Lazada Official Store', href: 'https://www.lazada.com.ph/shop/fnl-toys/?spm=a2o4l.pdp_revamp.seller.1.68e35df942b4gp&itemId=4339751833&channelSource=pdp' },
+  { label: 'Lazada Official Store', href: 'https://www.lazada.com.ph/shop/fnl-toys' },
   { label: 'Privacy Policy',        href: '#' },
   { label: 'Terms',                 href: '#' },
 ];

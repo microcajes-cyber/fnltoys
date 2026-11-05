@@ -35,7 +35,7 @@ const products: Product[] = [
   links: {
     shopee: 'https://shopee.ph/%E3%80%90Foldable-Octopus-fence-%E3%80%91FNL-TOYS-thicker-bigger-playpen-10pcs-balls-and-with-adjustable-ring-toss-i.278483575.8046169224?extraParams=%7B%22display_model_id%22%3A215230801116%2C%22model_selection_logic%22%3A3%7D',
     tiktok: 'https://shop.tiktok.com/ph/pdp/1729399156499123336?encode_params=MIIBpgQMe_7PAXtHwtPJ1pQqBIIBgvpNo8DUiHhDU16D-ATNEuvxFrqHC8QdvD7y7LlypwcT8xJUeHZ97jlGGFHPDgWAi0LEOT2tLCqTxVj1El0kaU25inOXgOIYVrYTh0Hs1TzMnLGXc44OScyQJfohSV57mjqZlfIjY-6Xq0ZhGvcHt3NqyNAOyADkyJgnH51Gf4sr-tP_B2_HZaTf3RD6kdqpBjJE8qy2AM5deTLOtSkTvnaSFJKji3-zwY0LjkFSufhdnIvBWAijjEIRDi4q151qSoFHJCB2J8VKhKGYGPefJT1zauPQT2HF04Hv1U9YplJcUtHhZ5ym-Ei1JCCSUXbU9dJZ3YzgdIv7o1oEEnbj9znhwRVT9Q0EbT0TullfMSd7Ienid007eWQoZu7mER8SRU0RAGTI8kaZbTYGab4zw74mbPkHwLD-jlJfO4FXTj2-1EpjYXQdZ23VAA1JIhnWA6sA1Z7spRavkysXMBQYe_cVVq4mYSISK6fGP_ujKa1zv88CKyRKvAoMLdVSP48aAAwsBBANvUnsImhMg1zooJCqSBDB&region=PH&locale=en&source=seller_center&hide_tips=&no-cache=1&e=1',
-    lazada: 'https://www.lazada.com.ph/products/pdp-i15578476430-s133461613388.html?spm=a2o4l.10450891.0.0.3f7613bc5uxD9u&search=store&mp=3'
+    lazada: 'https://www.lazada.com.ph/shop/fnl-toys'
   }
 },
 {
@@ -52,7 +52,7 @@ const products: Product[] = [
   links: {
     shopee: 'https://shopee.ph/FNL-TOYS-50-pcs-8cm-big-ocean-balls-kidzoona-size-balls-soft-bouncy-balls-i.278483575.27288799550?extraParams=%7B%22display_model_id%22%3A262592832587%2C%22model_selection_logic%22%3A3%7D',
     tiktok: 'https://shop.tiktok.com/ph/pdp/1732255541865776264?encode_params=MIIBpgQMyoujyhC1JBvg-icTBIIBgmxL56GDOn6Jppx0OCZIshWwPK-Eu24o3S6j7vtCLeCaN5vWlcoIch379HGiXApZeVD4fuyk6MyxEVQPhz6x-0VcVNPAWUs_sHHQzckm_Cxk5id95zLmvnj4RSAdnePimhZxUqZ1zr4MyFmQZj7oXpxOILOtJIHB9UBx8LK6kV3kKGrmU05lENKftI_QQHPWV4zIoPWgUWc4V2fV7p9RYpo4IdGzyuxUm6e1q6Rf1ZcmEn1YVucoTA-KL1DMfWJmZsRovL0Gxw3ookA8K8R08xgbc_Pi3y3KKiQppeQ7q8ejsaSJQJ7S-cHAQgz8mso1xcG0nKjJS6bBqThToKhBaI6D7sEzkfF2pDiVKvH1-l6U7NqW-TKlCfoBBiAT8UpSuxldJZlXLFfyhhBmt2Pb5MJ3-xepmK6Ox00VObZSceNXyK7exuUd-H8uvY7CS6qRKCw-pU9ILFBf5NMyZFhsPn1j-JMX9CPWpI4IB6LWypCAbKYvH2LLB7t5NaHEjmZeRSV3BBC8skp7Jt-hXwl6mG6-aQPF&region=PH&locale=en&source=seller_center&hide_tips=&no-cache=1&e=1',
-    lazada: 'https://www.lazada.com.ph/products/pdp-i3895267157-s133473648743.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253Aocean%253Bnid%253A3895267157%253Bsrc%253AlazadaInShopSrp%253Brn%253Adc923b6c96fa5779c2c2d0681dac3135%253Bregion%253Aph%253Bsku%253A3895267157_PH%253Bprice%253A249%253Bclient%253Adesktop%253Bsupplier_id%253A500163219011%253Bsession_id%253A%253Bbiz_source%253Ahttps%253A%252F%252Fwww.lazada.com.ph%252F%253Bslot%253A1%253Butlog_bucket_id%253A470687%253Basc_category_id%253A18532%253Bitem_id%253A3895267157%253Bsku_id%253A133473648743%253Bshop_id%253A1483950%253BtemplateInfo%253A164592_J%2523107881_E%2523-1_A3_C%2523&freeshipping=1&fs_ab=2&fuse_fs=&lang=en&location=Bulacan&price=249&priceCompare=skuId%3A133473648743%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3Adc923b6c96fa5779c2c2d0681dac3135%3BoriginPrice%3A24900%3BdisplayPrice%3A24900%3BisGray%3Afalse%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1788328367754&ratingscore=4.925925925925926&request_id=dc923b6c96fa5779c2c2d0681dac3135&review=27&sale=164&search=1&spm=a2o4l.store_keyword.list.1&stock=1'
+    lazada: 'https://www.lazada.com.ph/shop/fnl-toys'
   }
 },
 {
@@ -69,7 +69,7 @@ const products: Product[] = [
   links: {
     shopee: 'https://shopee.ph/White-Carrot-Children\'s-Bookshelf-Plastic-Kids-Book-Shelf-Toy-Organizer-Rack-i.278483575.19170982462?extraParams=%7B%22display_model_id%22%3A107892165884%2C%22model_selection_logic%22%3A3%7D',
     tiktok: 'https://shop.tiktok.com/ph/pdp/1729396093210627208?encode_params=MIIBpgQMD9e2bi6zExnmkD75BIIBggunKXyJ7UGjEuG1q4T_mzL2ypvmz6ij68YIjnAIdGYgBpW-Mkg1vvWE8L8wzqNCsi7abhOx7D9YwSE-_k5NdKdRLp4-wixDhclW3ptee6287JDa67wumio4YH5-4zcr9zKFjN3IXdgjIoiQhIuSyGvlyCXyZv1-KJN2DTnqXMAWNOudnYeCotqPXkSLqKWsmzDFGGWPeUxPWyTHOcKKQJajOlcfYVqWH4Ke3osgQcyF303BGKI5GIEIz-qYiTSxc1ncxcjAmIkwYJhVMOBj6UBD-f8TMGcZbprsPh2uTQ7_ZJPcxPoBQE3-ZAuLHr8DcGiPrverETBRD0BrFdrBINJwR2uPEOB_sCioiReTjS4pJ0eMA6zO5EoST1za78rPzM9DC-cXIfyrB_GvHUvMltUPVDutFZa_YO4gtw1ybxPX0tbRH1SFGK-53g0huMD4bY9ylRoWX5Q5VsryiJ0UJnIScaUJj7jBkIsXlrcghf9m4OCAphM7ehocPOHiyNyrI11CBBD6RZSnlFEgUu79VgSNGtks&region=PH&locale=en&source=seller_center&hide_tips=&no-cache=1&e=1',
-    lazada: 'https://www.lazada.com.ph/products/pdp-i4533312216-s25965594870.html?c=&channelLpJumpArgs=&clickTrackInfo=query%253Acarrot%253Bnid%253A4533312216%253Bsrc%253AlazadaInShopSrp%253Brn%253Ad8bfe82b6da33d6fc62ffc61d259420b%253Bregion%253Aph%253Bsku%253A4533312216_PH%253Bprice%253A1049%253Bclient%253Adesktop%253Bsupplier_id%253A500163219011%253Bsession_id%253A%253Bbiz_source%253Ahttps%253A%252F%252Fwww.lazada.com.ph%252F%253Bslot%253A0%253Butlog_bucket_id%253A470687%253Basc_category_id%253A22759%253Bitem_id%253A4533312216%253Bsku_id%253A25965594870%253Bshop_id%253A1483950%253BtemplateInfo%253A164592_J%2523107881_E%2523-1_A3_C%2523&freeshipping=1&fs_ab=2&fuse_fs=&lang=en&location=Bulacan&price=1049&priceCompare=skuId%3A25965594870%3Bsource%3Alazada-search-voucher-in-shop%3Bsn%3Ad8bfe82b6da33d6fc62ffc61d259420b%3BoriginPrice%3A104900%3BdisplayPrice%3A104900%3BisGray%3Afalse%3BsinglePromotionId%3A-1%3BsingleToolCode%3A-1%3BvoucherPricePlugin%3A0%3Btimestamp%3A1788328094706&request_id=d8bfe82b6da33d6fc62ffc61d259420b'
+    lazada: 'https://www.lazada.com.ph/shop/fnl-toys'
   }
 },
 {
@@ -86,7 +86,7 @@ const products: Product[] = [
   links: {
     shopee: 'https://shopee.ph/FNL-TOYS-4-Layer-Children\'s-Toy-Storage-Shelves-No-Lid-Cover-Multi-Tier-Organizer-Storage-Rack-i.278483575.19595045327?extraParams=%7B%22display_model_id%22%3A255008681017%2C%22model_selection_logic%22%3A3%7D',
     tiktok: 'https://shop.tiktok.com/ph/pdp/1729778873336432776?encode_params=MIIBpgQM1DUO0kOU2IxInqocBIIBgg4nGnvEgaNXJcNxiLADZ5pXpBfGgYcnPOu4cTJWUCcVROKkj2lD7V69bIX4c7sbTg1kGVuQ5gNB0ywOHlZEmJGeWE7qmp4VPWuQvlpTxCVFZ43nJajpVIZqVZNOqO7llvj1WHd2vv7DZ2qlbNVLSx5AgSlQPgBPlK7VCOCuAtjZ3_XFqlWSpdm-lOW2tpzsmGv45pX6lWrKmGknGiATKQGFYcxbgAqQTdBOySbdBnOiJizYixAbSKOkW_L2tBKuNTGq6nfLSIgGSCgk9U84FK_pCu2wCIxmvszoZy5Wl9fiY-L6_rLkIhI0eUiwdlwhvMnzsQVrv86QaEVSt9pS0hCFToQq2C8NUzNbh4JuTwJ6LbODoDKLwyesLr74KbT2cXPoOzIMiuWfDxNl-Bj9fLspIe25YM3iJGWhCctvDk5fsW37UDjfJvgQkiMay4JUiUbFF28kNBP9JdMSvVuSo_Bb_VyWhoJmVrylLF_aueDdoMOrOu_PFS4mwWYwByoXv6njBBDlgNaFK3swjgA-dFQyJII9&region=PH&locale=en&source=seller_center&hide_tips=&no-cache=1&e=1',
-    lazada: 'https://www.lazada.com.ph/products/pdp-i4339751833-s133139940211.html?spm=a2o4l.10450891.0.0.b2db13bcL4bqt9&search=store&mp=3'
+    lazada: 'https://www.lazada.com.ph/shop/fnl-toys'
   }
 }];
 
@@ -252,7 +252,7 @@ export default function FeaturedProducts() {
             {[
             { label: 'Shopee', href: 'https://shopee.ph/fnltoys', bg: 'bg-[#EE4D2D]', text: 'text-white' },
             { label: 'TikTok', href: 'https://tiktok.com/@fnltoys', bg: 'bg-foreground', text: 'text-background' },
-            { label: 'Lazada', href: 'https://lazada.com.ph/shop/fnltoys', bg: 'bg-[#0F146D]', text: 'text-white' }].
+            { label: 'Lazada', href: 'https://www.lazada.com.ph/shop/fnl-toys', bg: 'bg-[#0F146D]', text: 'text-white' }].
             map((m) =>
             <a
               key={m.label}

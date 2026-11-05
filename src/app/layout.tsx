@@ -23,7 +23,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://www.fnltoys.ph'),
   title: 'FNL Toys — Safe, Locally Made Kids Play Gear',
   description:
     'FNL Toys crafts non-toxic, durable children\'s play fences, ocean balls, bookshelves, and storage racks — proudly manufactured in Bulacan, Philippines.',
