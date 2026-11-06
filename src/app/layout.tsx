@@ -1,32 +1,23 @@
-import React from 'react';
 import type { Metadata, Viewport } from 'next';
-import { Montserrat, Fraunces } from 'next/font/google';
+import { collections, SITE_URL } from '@/lib/catalog';
+import PlayroomShell from '@/components/playroom/PlayroomShell';
 import '../styles/tailwind.css';
+import '../styles/playroom.css';
 
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  variable: '--font-montserrat',
-  display: 'swap',
-});
-
-const fraunces = Fraunces({
-  subsets: ['latin'],
-  weight: ['100', '200', '300', '400', '500', '600', '700', '800', '900'],
-  variable: '--font-fraunces',
-  display: 'swap',
-});
-
-export const viewport: Viewport = {
-  width: 'device-width',
-  initialScale: 1,
-};
-
+export const viewport: Viewport = { width: 'device-width', initialScale: 1, themeColor: '#edf8ff' };
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
-  title: 'FNL Toys — Safe, Locally Made Kids Play Gear',
+  metadataBase: new URL(SITE_URL),
+  title: 'FNL Toys · A Little World of Play',
   description:
-    'FNL Toys crafts non-toxic, durable children\'s play fences, ocean balls, bookshelves, and storage racks — proudly manufactured in Bulacan, Philippines.',
+    'Explore FNL Toys play fences, ocean balls, bookshelves, and storage racks. Compare recorded options and shop through our official Philippine stores.',
+  alternates: { canonical: '/' },
+  openGraph: {
+    title: 'FNL Toys · A Little World of Play',
+    description: 'Play. Read. Tidy. Repeat. Explore six FNL Toys collections.',
+    url: '/',
+    type: 'website',
+    locale: 'en_PH',
+  },
   icons: {
     icon: [
       { url: '/favicon.ico', type: 'image/x-icon' },
@@ -36,17 +27,18 @@ export const metadata: Metadata = {
     apple: [{ url: '/apple-touch-icon.png', sizes: '180x180', type: 'image/png' }],
   },
 };
-
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${montserrat.variable} ${fraunces.variable}`}>
-      <body className={fraunces.className}>
-        {children}
-
-<script type="module" async src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Ffnltoys5044back.builtwithrocket.new&_be=https%3A%2F%2Fappanalytics.rocket.new&_v=0.1.20" />
-<script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2" /></body>
+    <html lang="en-PH">
+      <body>
+        <PlayroomShell collections={collections}>{children}</PlayroomShell>
+        <script
+          type="module"
+          async
+          src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Ffnltoys5044back.builtwithrocket.new&_be=https%3A%2F%2Fappanalytics.rocket.new&_v=0.1.20"
+        />
+        <script type="module" defer src="https://static.rocket.new/rocket-shot.js?v=0.0.2" />
+      </body>
     </html>
   );
 }

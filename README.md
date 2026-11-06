@@ -89,3 +89,7 @@ You can check out the [Next.js GitHub repository](https://github.com/vercel/next
 - Styled with Tailwind CSS
 
 Built with ❤️ on Rocket.new
+
+## Playroom Explorer redesign
+
+See [the implementation and validation notes](docs/PLAYROOM-REDESIGN.md) for product routes, catalog rules, media limits, and local checks.
