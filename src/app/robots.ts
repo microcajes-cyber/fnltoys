@@ -1,13 +1,8 @@
-import { MetadataRoute } from 'next';
-
+import type { MetadataRoute } from 'next';
+import { SITE_URL } from '@/lib/catalog';
 export default function robots(): MetadataRoute.Robots {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000';
   return {
-    rules: {
-      userAgent: '*',
-      allow: '/',
-      disallow: ['/api/', '/_next/', '/admin/'],
-    },
-    sitemap: `${base}/sitemap.xml`,
+    rules: { userAgent: '*', allow: '/', disallow: ['/api/', '/admin/'] },
+    sitemap: `${SITE_URL}/sitemap.xml`,
   };
 }
