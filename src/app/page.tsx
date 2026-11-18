@@ -5,8 +5,13 @@ import HeroSection from '@/app/components/HeroSection';
 import FeaturedProducts from '@/app/components/FeaturedProducts';
 import BrandTrustSection from '@/app/components/BrandTrustSection';
 import B2BWholesaleSection from '@/app/components/B2BWholesaleSection';
+import { loadPublishedCatalog } from '@/lib/catalog/load-published-catalog';
 
 export default function LandingPage() {
+  // Validates the committed catalog while this page is built. Public rows are
+  // for a later product page. This export has none, so the homepage is unchanged.
+  loadPublishedCatalog();
+
   return (
     <main className="relative overflow-x-hidden">
       {/* Global noise texture */}

@@ -1,0 +1,5153 @@
+{
+  "contractVersion": 1,
+  "exportedAt": "2026-11-18T00:00:00.000Z",
+  "source": {
+    "system": "fnl-toys-backend-v5",
+    "release": "rc4",
+    "snapshotDate": "2026-11-05",
+    "sourceUrl": null,
+    "sourceRecordCount": 367,
+    "familyCount": 6,
+    "optionCount": 206,
+    "converter": "scripts/convert-admin-catalog.mjs",
+    "note": "Converted from FNL TOYS Backend v5 rc4 src/catalog.json. Every option is still NEEDS REVIEW or CONFLICT. Prices, SKUs, stock, ratings, and Shopee/Lazada links were not in that snapshot and are left empty. publication.workflow is draft because this snapshot is not an approved revision for www.fnltoys.ph. The site renders a product only when workflow is published, the product is active and visible, and verification is verified."
+  },
+  "products": [
+    {
+      "id": "party-fence",
+      "name": "Party Fence",
+      "publication": {
+        "workflow": "draft",
+        "lifecycle": "active",
+        "visible": true
+      },
+      "verification": {
+        "status": "conflict",
+        "sourceLabel": "CONFLICT"
+      },
+      "copy": {
+        "eyebrow": "MAKE SPACE FOR PLAY",
+        "headline": "A little world of their own.",
+        "intro": "Explore the Party Fence collection and find a configuration for your play corner.",
+        "description": "Start with the panel set, then explore the colors and playmat options recorded for that configuration. The gallery helps you get to know the collection; confirm your exact selection and its included pieces in your chosen store.",
+        "guideTitle": "Plan your play corner",
+        "guideBody": "Think about where the play area will sit and leave room to move around it. Compare the recorded panel options first, then review the matching dimensions and included pieces in the store before ordering.",
+        "accent": "#F571AD",
+        "details": [
+          {
+            "label": "Choose by",
+            "value": "Color, panel set and playmat option"
+          },
+          {
+            "label": "Photo shown",
+            "value": "Family reference; individual options may differ"
+          },
+          {
+            "label": "Dimensions",
+            "value": "Confirm the selected configuration in the store"
+          }
+        ],
+        "questions": [
+          {
+            "q": "What does the panel-set label mean?",
+            "a": "Labels such as 10+2 are the configuration names recorded in the catalog. Check the listing for the exact parts and dimensions of the set you choose."
+          },
+          {
+            "q": "Is a playmat included?",
+            "a": "The bundle selector separates the recorded with-playmat and without-playmat options. Confirm the contents of your exact listing before ordering."
+          }
+        ]
+      },
+      "media": {
+        "gallery": [
+          {
+            "position": 0,
+            "kind": "image",
+            "url": null,
+            "assetId": "party",
+            "mime": "image/png",
+            "alt": "Party Fence — Family reference",
+            "label": "Family reference"
+          }
+        ],
+        "installationVideoUrl": null,
+        "productVideo": null
+      },
+      "options": [
+        {
+          "id": "PTY-BLU-NM-1002",
+          "sku": null,
+          "name": "Blue · 10+2 · Without playmat",
+          "position": 0,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "Without playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-BLU-NM-1202",
+          "sku": null,
+          "name": "Blue · 12+2 · Without playmat",
+          "position": 1,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "Without playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-BLU-NM-1402",
+          "sku": null,
+          "name": "Blue · 14+2 · Without playmat",
+          "position": 2,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "Without playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-BLU-NM-1602",
+          "sku": null,
+          "name": "Blue · 16+2 · Without playmat",
+          "position": 3,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "Without playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-BLU-NM-1802",
+          "sku": null,
+          "name": "Blue · 18+2 · Without playmat",
+          "position": 4,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "Without playmat",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-BLU-NM-0602",
+          "sku": null,
+          "name": "Blue · 6+2 · Without playmat",
+          "position": 5,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "Without playmat",
+            "panel": "6+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-BLU-NM-0802",
+          "sku": null,
+          "name": "Blue · 8+2 · Without playmat",
+          "position": 6,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "Without playmat",
+            "panel": "8+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-BLU-WM-1802",
+          "sku": null,
+          "name": "Blue · 18+2 · With playmat",
+          "position": 7,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "With playmat",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-NM-1002",
+          "sku": null,
+          "name": "Gray · 10+2 · Without playmat",
+          "position": 8,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "Without playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-NM-1202",
+          "sku": null,
+          "name": "Gray · 12+2 · Without playmat",
+          "position": 9,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "Without playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-NM-1402",
+          "sku": null,
+          "name": "Gray · 14+2 · Without playmat",
+          "position": 10,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "Without playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-NM-1602",
+          "sku": null,
+          "name": "Gray · 16+2 · Without playmat",
+          "position": 11,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "Without playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-NM-1802",
+          "sku": null,
+          "name": "Gray · 18+2 · Without playmat",
+          "position": 12,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "Without playmat",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-NM-0602",
+          "sku": null,
+          "name": "Gray · 6+2 · Without playmat",
+          "position": 13,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "Without playmat",
+            "panel": "6+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-NM-0802",
+          "sku": null,
+          "name": "Gray · 8+2 · Without playmat",
+          "position": 14,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "Without playmat",
+            "panel": "8+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-GRY-WM-1802",
+          "sku": null,
+          "name": "Gray · 18+2 · With playmat",
+          "position": 15,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "With playmat",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-NM-1002",
+          "sku": null,
+          "name": "Pink · 10+2 · Without playmat",
+          "position": 16,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "Without playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-NM-1202",
+          "sku": null,
+          "name": "Pink · 12+2 · Without playmat",
+          "position": 17,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "Without playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-NM-1402",
+          "sku": null,
+          "name": "Pink · 14+2 · Without playmat",
+          "position": 18,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "Without playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-NM-1602",
+          "sku": null,
+          "name": "Pink · 16+2 · Without playmat",
+          "position": 19,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "Without playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-NM-1802",
+          "sku": null,
+          "name": "Pink · 18+2 · Without playmat",
+          "position": 20,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "Without playmat",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-NM-0602",
+          "sku": null,
+          "name": "Pink · 6+2 · Without playmat",
+          "position": 21,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "Without playmat",
+            "panel": "6+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-NM-0802",
+          "sku": null,
+          "name": "Pink · 8+2 · Without playmat",
+          "position": 22,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "Without playmat",
+            "panel": "8+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-PNK-WM-1802",
+          "sku": null,
+          "name": "Pink · 18+2 · With playmat",
+          "position": 23,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "With playmat",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-WHT-NM-1002",
+          "sku": null,
+          "name": "White · 10+2 · Without playmat",
+          "position": 24,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "Without playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-WHT-NM-1202",
+          "sku": null,
+          "name": "White · 12+2 · Without playmat",
+          "position": 25,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "Without playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-WHT-NM-1402",
+          "sku": null,
+          "name": "White · 14+2 · Without playmat",
+          "position": 26,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "Without playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-WHT-NM-1602",
+          "sku": null,
+          "name": "White · 16+2 · Without playmat",
+          "position": 27,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "Without playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-WHT-NM-1802",
+          "sku": null,
+          "name": "White · 18+2 · Without playmat",
+          "position": 28,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "Without playmat",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-WHT-NM-0602",
+          "sku": null,
+          "name": "White · 6+2 · Without playmat",
+          "position": 29,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "Without playmat",
+            "panel": "6+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "PTY-WHT-NM-0802",
+          "sku": null,
+          "name": "White · 8+2 · Without playmat",
+          "position": 30,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "Without playmat",
+            "panel": "8+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        }
+      ],
+      "channels": []
+    },
+    {
+      "id": "hippo-fence",
+      "name": "Hippo Fence",
+      "publication": {
+        "workflow": "draft",
+        "lifecycle": "active",
+        "visible": true
+      },
+      "verification": {
+        "status": "conflict",
+        "sourceLabel": "CONFLICT"
+      },
+      "copy": {
+        "eyebrow": "MEET THE HIPPO COLLECTION",
+        "headline": "A playful personality for your play corner.",
+        "intro": "Get to know the Hippo Fence design and explore its panel-set and bundle options.",
+        "description": "Browse the collection by color, panel set and bundle. The supplied assembly illustrations introduce the panel designs, while the variation cards keep each recorded combination together so you can compare your options.",
+        "guideTitle": "Meet the panels",
+        "guideBody": "The supplied guide illustrates the door, narrow panels and activity panel. Use it to get familiar with the design, then confirm the parts and instructions for your chosen set. Illustrations do not establish a specific colorway or verified part count.",
+        "accent": "#AA9DE7",
+        "details": [
+          {
+            "label": "Choose by",
+            "value": "Color, panel set and mat/ring bundle"
+          },
+          {
+            "label": "Reference available",
+            "value": "Illustrated assembly manual"
+          },
+          {
+            "label": "Product photography",
+            "value": "Exact-variation photographs are still needed"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Can I select the playmat and ring separately?",
+            "a": "The bundle selector groups the mat and adjustable-ring options into recorded combinations. The choices change with the color and panel set."
+          },
+          {
+            "q": "Is the illustrated guide a product photograph?",
+            "a": "No. It is an assembly reference. Color and configuration photographs will be added when matched to the exact variation."
+          }
+        ]
+      },
+      "media": {
+        "gallery": [
+          {
+            "position": 0,
+            "kind": "image",
+            "url": null,
+            "assetId": "hippoManual",
+            "mime": "image/png",
+            "alt": "Hippo Fence — Assembly illustrations",
+            "label": "Assembly illustrations"
+          }
+        ],
+        "installationVideoUrl": null,
+        "productVideo": null
+      },
+      "options": [
+        {
+          "id": "HIP-AWH-NMNR-1002",
+          "sku": null,
+          "name": "All White · 10+2 · No playmat or ring",
+          "position": 0,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-NMNR-1202",
+          "sku": null,
+          "name": "All White · 12+2 · No playmat or ring",
+          "position": 1,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-NMNR-1402",
+          "sku": null,
+          "name": "All White · 14+2 · No playmat or ring",
+          "position": 2,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-NMNR-1602",
+          "sku": null,
+          "name": "All White · 16+2 · No playmat or ring",
+          "position": 3,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-NMR-1002",
+          "sku": null,
+          "name": "All White · 10+2 · Adjustable ring · No playmat",
+          "position": 4,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-NMR-1202",
+          "sku": null,
+          "name": "All White · 12+2 · Adjustable ring · No playmat",
+          "position": 5,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-NMR-1402",
+          "sku": null,
+          "name": "All White · 14+2 · Adjustable ring · No playmat",
+          "position": 6,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-NMR-1602",
+          "sku": null,
+          "name": "All White · 16+2 · Adjustable ring · No playmat",
+          "position": 7,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-WMR-1002",
+          "sku": null,
+          "name": "All White · 10+2 · Playmat + adjustable ring",
+          "position": 8,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-WMR-1202",
+          "sku": null,
+          "name": "All White · 12+2 · Playmat + adjustable ring",
+          "position": 9,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-WMR-1402",
+          "sku": null,
+          "name": "All White · 14+2 · Playmat + adjustable ring",
+          "position": 10,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-WMR-1802",
+          "sku": null,
+          "name": "All White · 18+2 · Playmat + adjustable ring",
+          "position": 11,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat + adjustable ring",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-AWH-WMNR-1202",
+          "sku": null,
+          "name": "All White · 12+2 · Playmat · No adjustable ring",
+          "position": 12,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat · No adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMNR-1002",
+          "sku": null,
+          "name": "Gray & White · 10+2 · No playmat or ring",
+          "position": 13,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMNR-1202",
+          "sku": null,
+          "name": "Gray & White · 12+2 · No playmat or ring",
+          "position": 14,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMNR-1402",
+          "sku": null,
+          "name": "Gray & White · 14+2 · No playmat or ring",
+          "position": 15,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMNR-1602",
+          "sku": null,
+          "name": "Gray & White · 16+2 · No playmat or ring",
+          "position": 16,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMR-1002",
+          "sku": null,
+          "name": "Gray & White · 10+2 · Adjustable ring · No playmat",
+          "position": 17,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMR-1202",
+          "sku": null,
+          "name": "Gray & White · 12+2 · Adjustable ring · No playmat",
+          "position": 18,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMR-1402",
+          "sku": null,
+          "name": "Gray & White · 14+2 · Adjustable ring · No playmat",
+          "position": 19,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-NMR-1602",
+          "sku": null,
+          "name": "Gray & White · 16+2 · Adjustable ring · No playmat",
+          "position": 20,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-WMR-1002",
+          "sku": null,
+          "name": "Gray & White · 10+2 · Playmat + adjustable ring",
+          "position": 21,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-WMR-1202",
+          "sku": null,
+          "name": "Gray & White · 12+2 · Playmat + adjustable ring",
+          "position": 22,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-WMR-1402",
+          "sku": null,
+          "name": "Gray & White · 14+2 · Playmat + adjustable ring",
+          "position": 23,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-WMR-1802",
+          "sku": null,
+          "name": "Gray & White · 18+2 · Playmat + adjustable ring",
+          "position": 24,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-GWH-WMNR-1202",
+          "sku": null,
+          "name": "Gray & White · 12+2 · Playmat · No adjustable ring",
+          "position": 25,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat · No adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-NMR-1002",
+          "sku": null,
+          "name": "Pink & White · 10+2 · Adjustable ring · No playmat",
+          "position": 26,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-NMR-1202",
+          "sku": null,
+          "name": "Pink & White · 12+2 · Adjustable ring · No playmat",
+          "position": 27,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-NMR-1402",
+          "sku": null,
+          "name": "Pink & White · 14+2 · Adjustable ring · No playmat",
+          "position": 28,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-NMR-1602",
+          "sku": null,
+          "name": "Pink & White · 16+2 · Adjustable ring · No playmat",
+          "position": 29,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-WMR-1002",
+          "sku": null,
+          "name": "Pink & White · 10+2 · Playmat + adjustable ring",
+          "position": 30,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-WMR-1202",
+          "sku": null,
+          "name": "Pink & White · 12+2 · Playmat + adjustable ring",
+          "position": 31,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-WMR-1402",
+          "sku": null,
+          "name": "Pink & White · 14+2 · Playmat + adjustable ring",
+          "position": 32,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-WMR-1802",
+          "sku": null,
+          "name": "Pink & White · 18+2 · Playmat + adjustable ring",
+          "position": 33,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PWH-WMNR-1202",
+          "sku": null,
+          "name": "Pink & White · 12+2 · Playmat · No adjustable ring",
+          "position": 34,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat · No adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMNR-1002",
+          "sku": null,
+          "name": "Purple & Pink · 10+2 · No playmat or ring",
+          "position": 35,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMNR-1202",
+          "sku": null,
+          "name": "Purple & Pink · 12+2 · No playmat or ring",
+          "position": 36,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMNR-1402",
+          "sku": null,
+          "name": "Purple & Pink · 14+2 · No playmat or ring",
+          "position": 37,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMNR-1602",
+          "sku": null,
+          "name": "Purple & Pink · 16+2 · No playmat or ring",
+          "position": 38,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMR-1002",
+          "sku": null,
+          "name": "Purple & Pink · 10+2 · Adjustable ring · No playmat",
+          "position": 39,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMR-1202",
+          "sku": null,
+          "name": "Purple & Pink · 12+2 · Adjustable ring · No playmat",
+          "position": 40,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMR-1402",
+          "sku": null,
+          "name": "Purple & Pink · 14+2 · Adjustable ring · No playmat",
+          "position": 41,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-NMR-1602",
+          "sku": null,
+          "name": "Purple & Pink · 16+2 · Adjustable ring · No playmat",
+          "position": 42,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-WMR-1002",
+          "sku": null,
+          "name": "Purple & Pink · 10+2 · Playmat + adjustable ring",
+          "position": 43,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-WMR-1202",
+          "sku": null,
+          "name": "Purple & Pink · 12+2 · Playmat + adjustable ring",
+          "position": 44,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-WMR-1402",
+          "sku": null,
+          "name": "Purple & Pink · 14+2 · Playmat + adjustable ring",
+          "position": 45,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-WMR-1802",
+          "sku": null,
+          "name": "Purple & Pink · 18+2 · Playmat + adjustable ring",
+          "position": 46,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat + adjustable ring",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PPK-WMNR-1202",
+          "sku": null,
+          "name": "Purple & Pink · 12+2 · Playmat · No adjustable ring",
+          "position": 47,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat · No adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMNR-1002",
+          "sku": null,
+          "name": "Purple & White · 10+2 · No playmat or ring",
+          "position": 48,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMNR-1202",
+          "sku": null,
+          "name": "Purple & White · 12+2 · No playmat or ring",
+          "position": 49,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMNR-1402",
+          "sku": null,
+          "name": "Purple & White · 14+2 · No playmat or ring",
+          "position": 50,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMNR-1602",
+          "sku": null,
+          "name": "Purple & White · 16+2 · No playmat or ring",
+          "position": 51,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMR-1002",
+          "sku": null,
+          "name": "Purple & White · 10+2 · Adjustable ring · No playmat",
+          "position": 52,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMR-1202",
+          "sku": null,
+          "name": "Purple & White · 12+2 · Adjustable ring · No playmat",
+          "position": 53,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMR-1402",
+          "sku": null,
+          "name": "Purple & White · 14+2 · Adjustable ring · No playmat",
+          "position": 54,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-NMR-1602",
+          "sku": null,
+          "name": "Purple & White · 16+2 · Adjustable ring · No playmat",
+          "position": 55,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-WMR-1002",
+          "sku": null,
+          "name": "Purple & White · 10+2 · Playmat + adjustable ring",
+          "position": 56,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-WMR-1202",
+          "sku": null,
+          "name": "Purple & White · 12+2 · Playmat + adjustable ring",
+          "position": 57,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-WMR-1402",
+          "sku": null,
+          "name": "Purple & White · 14+2 · Playmat + adjustable ring",
+          "position": 58,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-WMR-1802",
+          "sku": null,
+          "name": "Purple & White · 18+2 · Playmat + adjustable ring",
+          "position": 59,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "18+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "HIP-PUW-WMNR-1202",
+          "sku": null,
+          "name": "Purple & White · 12+2 · Playmat · No adjustable ring",
+          "position": 60,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat · No adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        }
+      ],
+      "channels": []
+    },
+    {
+      "id": "octopus-fence",
+      "name": "Octopus Fence",
+      "publication": {
+        "workflow": "draft",
+        "lifecycle": "active",
+        "visible": true
+      },
+      "verification": {
+        "status": "conflict",
+        "sourceLabel": "CONFLICT"
+      },
+      "copy": {
+        "eyebrow": "EXPLORE THE OCTOPUS COLLECTION",
+        "headline": "Find the setup that fits your plans.",
+        "intro": "Compare the Octopus Fence configurations and explore the color and bundle choices.",
+        "description": "Each variation card represents one recorded combination of color, panel option and bundle. Build a shortlist, review the set contents in the store and choose the option that matches your plans.",
+        "guideTitle": "Before you choose",
+        "guideBody": "Compare the panel label, color and mat/ring bundle together. A matching name is the starting point; check the listing photographs, dimensions and included pieces before ordering. The category illustration is a navigation aid, not a product photograph.",
+        "accent": "#68CBE5",
+        "details": [
+          {
+            "label": "Choose by",
+            "value": "Color, panel set and mat/ring bundle"
+          },
+          {
+            "label": "Photo status",
+            "value": "Product photographs for this draft are still needed"
+          },
+          {
+            "label": "Configuration details",
+            "value": "Confirm against the exact store listing"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Why do the bundle choices change?",
+            "a": "The selectors follow the combinations recorded in the catalog. An absent combination is not a statement about stock; it simply is not offered by this draft's dataset."
+          },
+          {
+            "q": "Where can I check the exact appearance?",
+            "a": "Use the matching store listing. The octopus icon here represents the category and is not a verified fence rendering."
+          }
+        ]
+      },
+      "media": {
+        "gallery": [],
+        "installationVideoUrl": null,
+        "productVideo": null
+      },
+      "options": [
+        {
+          "id": "OCT-AWH-NMNR-1002",
+          "sku": null,
+          "name": "All White · 10+2 · No playmat or ring",
+          "position": 0,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-NMNR-1202",
+          "sku": null,
+          "name": "All White · 12+2 · No playmat or ring",
+          "position": 1,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-NMNR-1402",
+          "sku": null,
+          "name": "All White · 14+2 · No playmat or ring",
+          "position": 2,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-NMNR-1602",
+          "sku": null,
+          "name": "All White · 16+2 · No playmat or ring",
+          "position": 3,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-NMR-1002",
+          "sku": null,
+          "name": "All White · 10+2 · Adjustable ring · No playmat",
+          "position": 4,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-NMR-1202",
+          "sku": null,
+          "name": "All White · 12+2 · Adjustable ring · No playmat",
+          "position": 5,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-NMR-1402",
+          "sku": null,
+          "name": "All White · 14+2 · Adjustable ring · No playmat",
+          "position": 6,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-NMR-1602",
+          "sku": null,
+          "name": "All White · 16+2 · Adjustable ring · No playmat",
+          "position": 7,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-WMR-1002",
+          "sku": null,
+          "name": "All White · 10+2 · Playmat + adjustable ring",
+          "position": 8,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-WMR-1202",
+          "sku": null,
+          "name": "All White · 12+2 · Playmat + adjustable ring",
+          "position": 9,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-AWH-WMR-1402",
+          "sku": null,
+          "name": "All White · 14+2 · Playmat + adjustable ring",
+          "position": 10,
+          "active": true,
+          "attributes": {
+            "color": "All White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-BWH-NMR-1002",
+          "sku": null,
+          "name": "Blue & White · 10+2 · Adjustable ring · No playmat",
+          "position": 11,
+          "active": true,
+          "attributes": {
+            "color": "Blue & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-BWH-NMR-1202",
+          "sku": null,
+          "name": "Blue & White · 12+2 · Adjustable ring · No playmat",
+          "position": 12,
+          "active": true,
+          "attributes": {
+            "color": "Blue & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-BWH-NMR-1402",
+          "sku": null,
+          "name": "Blue & White · 14+2 · Adjustable ring · No playmat",
+          "position": 13,
+          "active": true,
+          "attributes": {
+            "color": "Blue & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-BWH-NMR-1602",
+          "sku": null,
+          "name": "Blue & White · 16+2 · Adjustable ring · No playmat",
+          "position": 14,
+          "active": true,
+          "attributes": {
+            "color": "Blue & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-BWH-WMR-1002",
+          "sku": null,
+          "name": "Blue & White · 10+2 · Playmat + adjustable ring",
+          "position": 15,
+          "active": true,
+          "attributes": {
+            "color": "Blue & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-BWH-WMR-1202",
+          "sku": null,
+          "name": "Blue & White · 12+2 · Playmat + adjustable ring",
+          "position": 16,
+          "active": true,
+          "attributes": {
+            "color": "Blue & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-BWH-WMR-1402",
+          "sku": null,
+          "name": "Blue & White · 14+2 · Playmat + adjustable ring",
+          "position": 17,
+          "active": true,
+          "attributes": {
+            "color": "Blue & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMNR-1002",
+          "sku": null,
+          "name": "Gray & White · 10+2 · No playmat or ring",
+          "position": 18,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMNR-1202",
+          "sku": null,
+          "name": "Gray & White · 12+2 · No playmat or ring",
+          "position": 19,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMNR-1402",
+          "sku": null,
+          "name": "Gray & White · 14+2 · No playmat or ring",
+          "position": 20,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMNR-1602",
+          "sku": null,
+          "name": "Gray & White · 16+2 · No playmat or ring",
+          "position": 21,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMR-1002",
+          "sku": null,
+          "name": "Gray & White · 10+2 · Adjustable ring · No playmat",
+          "position": 22,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMR-1202",
+          "sku": null,
+          "name": "Gray & White · 12+2 · Adjustable ring · No playmat",
+          "position": 23,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMR-1402",
+          "sku": null,
+          "name": "Gray & White · 14+2 · Adjustable ring · No playmat",
+          "position": 24,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-NMR-1602",
+          "sku": null,
+          "name": "Gray & White · 16+2 · Adjustable ring · No playmat",
+          "position": 25,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-WMR-1002",
+          "sku": null,
+          "name": "Gray & White · 10+2 · Playmat + adjustable ring",
+          "position": 26,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-WMR-1202",
+          "sku": null,
+          "name": "Gray & White · 12+2 · Playmat + adjustable ring",
+          "position": 27,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-GWH-WMR-1402",
+          "sku": null,
+          "name": "Gray & White · 14+2 · Playmat + adjustable ring",
+          "position": 28,
+          "active": true,
+          "attributes": {
+            "color": "Gray & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMNR-1002",
+          "sku": null,
+          "name": "Pink & White · 10+2 · No playmat or ring",
+          "position": 29,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMNR-1202",
+          "sku": null,
+          "name": "Pink & White · 12+2 · No playmat or ring",
+          "position": 30,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMNR-1402",
+          "sku": null,
+          "name": "Pink & White · 14+2 · No playmat or ring",
+          "position": 31,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMNR-1602",
+          "sku": null,
+          "name": "Pink & White · 16+2 · No playmat or ring",
+          "position": 32,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMR-1002",
+          "sku": null,
+          "name": "Pink & White · 10+2 · Adjustable ring · No playmat",
+          "position": 33,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMR-1202",
+          "sku": null,
+          "name": "Pink & White · 12+2 · Adjustable ring · No playmat",
+          "position": 34,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMR-1402",
+          "sku": null,
+          "name": "Pink & White · 14+2 · Adjustable ring · No playmat",
+          "position": 35,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-NMR-1602",
+          "sku": null,
+          "name": "Pink & White · 16+2 · Adjustable ring · No playmat",
+          "position": 36,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-WMR-1002",
+          "sku": null,
+          "name": "Pink & White · 10+2 · Playmat + adjustable ring",
+          "position": 37,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-WMR-1202",
+          "sku": null,
+          "name": "Pink & White · 12+2 · Playmat + adjustable ring",
+          "position": 38,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PWH-WMR-1402",
+          "sku": null,
+          "name": "Pink & White · 14+2 · Playmat + adjustable ring",
+          "position": 39,
+          "active": true,
+          "attributes": {
+            "color": "Pink & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMNR-1002",
+          "sku": null,
+          "name": "Purple & Pink · 10+2 · No playmat or ring",
+          "position": 40,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMNR-1202",
+          "sku": null,
+          "name": "Purple & Pink · 12+2 · No playmat or ring",
+          "position": 41,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMNR-1402",
+          "sku": null,
+          "name": "Purple & Pink · 14+2 · No playmat or ring",
+          "position": 42,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMNR-1602",
+          "sku": null,
+          "name": "Purple & Pink · 16+2 · No playmat or ring",
+          "position": 43,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMR-1002",
+          "sku": null,
+          "name": "Purple & Pink · 10+2 · Adjustable ring · No playmat",
+          "position": 44,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMR-1202",
+          "sku": null,
+          "name": "Purple & Pink · 12+2 · Adjustable ring · No playmat",
+          "position": 45,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMR-1402",
+          "sku": null,
+          "name": "Purple & Pink · 14+2 · Adjustable ring · No playmat",
+          "position": 46,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-NMR-1602",
+          "sku": null,
+          "name": "Purple & Pink · 16+2 · Adjustable ring · No playmat",
+          "position": 47,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-WMR-1002",
+          "sku": null,
+          "name": "Purple & Pink · 10+2 · Playmat + adjustable ring",
+          "position": 48,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-WMR-1202",
+          "sku": null,
+          "name": "Purple & Pink · 12+2 · Playmat + adjustable ring",
+          "position": 49,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PPK-WMR-1402",
+          "sku": null,
+          "name": "Purple & Pink · 14+2 · Playmat + adjustable ring",
+          "position": 50,
+          "active": true,
+          "attributes": {
+            "color": "Purple & Pink",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMNR-1002",
+          "sku": null,
+          "name": "Purple & White · 10+2 · No playmat or ring",
+          "position": 51,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMNR-1202",
+          "sku": null,
+          "name": "Purple & White · 12+2 · No playmat or ring",
+          "position": 52,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMNR-1402",
+          "sku": null,
+          "name": "Purple & White · 14+2 · No playmat or ring",
+          "position": 53,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMNR-1602",
+          "sku": null,
+          "name": "Purple & White · 16+2 · No playmat or ring",
+          "position": 54,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "No playmat or ring",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMR-1002",
+          "sku": null,
+          "name": "Purple & White · 10+2 · Adjustable ring · No playmat",
+          "position": 55,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMR-1202",
+          "sku": null,
+          "name": "Purple & White · 12+2 · Adjustable ring · No playmat",
+          "position": 56,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMR-1402",
+          "sku": null,
+          "name": "Purple & White · 14+2 · Adjustable ring · No playmat",
+          "position": 57,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-NMR-1602",
+          "sku": null,
+          "name": "Purple & White · 16+2 · Adjustable ring · No playmat",
+          "position": 58,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Adjustable ring · No playmat",
+            "panel": "16+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-WMR-1002",
+          "sku": null,
+          "name": "Purple & White · 10+2 · Playmat + adjustable ring",
+          "position": 59,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "10+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-WMR-1202",
+          "sku": null,
+          "name": "Purple & White · 12+2 · Playmat + adjustable ring",
+          "position": 60,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "12+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OCT-PUW-WMR-1402",
+          "sku": null,
+          "name": "Purple & White · 14+2 · Playmat + adjustable ring",
+          "position": 61,
+          "active": true,
+          "attributes": {
+            "color": "Purple & White",
+            "option": "Playmat + adjustable ring",
+            "panel": "14+2",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        }
+      ],
+      "channels": []
+    },
+    {
+      "id": "ocean-balls",
+      "name": "Ocean Balls",
+      "publication": {
+        "workflow": "draft",
+        "lifecycle": "active",
+        "visible": true
+      },
+      "verification": {
+        "status": "conflict",
+        "sourceLabel": "CONFLICT"
+      },
+      "copy": {
+        "eyebrow": "A SPLASH OF COLOR",
+        "headline": "Little colors. Lots of possibilities.",
+        "intro": "Explore 8 cm Ocean Balls and compare the recorded colors and pack quantities.",
+        "description": "Choose a color and a pack size, then review your selection before continuing to a store. Ball diameter and balls per pack are separate details: the diameter stays at the confirmed 8 cm, while the number of balls depends on the chosen pack.",
+        "guideTitle": "Understand your pack",
+        "guideBody": "Choose the color first and then a listed pack quantity. The number of balls in one pack is different from the number of whole packs you buy; your final order quantity is selected in the store.",
+        "accent": "#F8A7CA",
+        "details": [
+          {
+            "label": "Ball diameter",
+            "value": "8 cm — confirmed in your product master"
+          },
+          {
+            "label": "Pack quantity",
+            "value": "Depends on the selected recorded pack"
+          },
+          {
+            "label": "Color presentation",
+            "value": "Illustrations are for navigation; check listing photographs"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Does pack quantity change the ball diameter?",
+            "a": "No. The catalog records an 8 cm diameter. The pack choice describes how many balls are included."
+          },
+          {
+            "q": "Are there two different White colors?",
+            "a": "The master records that Colorful White and Pastel White are the same white ball. This draft shows one White choice for each matching pack."
+          }
+        ]
+      },
+      "media": {
+        "gallery": [
+          {
+            "position": 0,
+            "kind": "image",
+            "url": null,
+            "assetId": "balls",
+            "mime": null,
+            "alt": "Ocean Balls — Illustrative color study",
+            "label": "Illustrative color study"
+          }
+        ],
+        "installationVideoUrl": null,
+        "productVideo": null
+      },
+      "options": [
+        {
+          "id": "OBL-COL-APG-100",
+          "sku": null,
+          "name": "Apple Green · 100 pieces · 100 pieces",
+          "position": 0,
+          "active": true,
+          "attributes": {
+            "color": "Apple Green",
+            "option": "100 pieces",
+            "panel": "100 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-APG-010",
+          "sku": null,
+          "name": "Apple Green · 10 pieces · 10 pieces",
+          "position": 1,
+          "active": true,
+          "attributes": {
+            "color": "Apple Green",
+            "option": "10 pieces",
+            "panel": "10 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-APG-025",
+          "sku": null,
+          "name": "Apple Green · 25 pieces · 25 pieces",
+          "position": 2,
+          "active": true,
+          "attributes": {
+            "color": "Apple Green",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-APG-300",
+          "sku": null,
+          "name": "Apple Green · 300 pieces · 300 pieces",
+          "position": 3,
+          "active": true,
+          "attributes": {
+            "color": "Apple Green",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-APG-050",
+          "sku": null,
+          "name": "Apple Green · 50 pieces · 50 pieces",
+          "position": 4,
+          "active": true,
+          "attributes": {
+            "color": "Apple Green",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-DBL-010",
+          "sku": null,
+          "name": "Deep Blue · 10 pieces · 10 pieces",
+          "position": 5,
+          "active": true,
+          "attributes": {
+            "color": "Deep Blue",
+            "option": "10 pieces",
+            "panel": "10 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-DBL-025",
+          "sku": null,
+          "name": "Deep Blue · 25 pieces · 25 pieces",
+          "position": 6,
+          "active": true,
+          "attributes": {
+            "color": "Deep Blue",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-DBL-300",
+          "sku": null,
+          "name": "Deep Blue · 300 pieces · 300 pieces",
+          "position": 7,
+          "active": true,
+          "attributes": {
+            "color": "Deep Blue",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-DBL-050",
+          "sku": null,
+          "name": "Deep Blue · 50 pieces · 50 pieces",
+          "position": 8,
+          "active": true,
+          "attributes": {
+            "color": "Deep Blue",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-ORG-100",
+          "sku": null,
+          "name": "Orange · 100 pieces · 100 pieces",
+          "position": 9,
+          "active": true,
+          "attributes": {
+            "color": "Orange",
+            "option": "100 pieces",
+            "panel": "100 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-ORG-010",
+          "sku": null,
+          "name": "Orange · 10 pieces · 10 pieces",
+          "position": 10,
+          "active": true,
+          "attributes": {
+            "color": "Orange",
+            "option": "10 pieces",
+            "panel": "10 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-ORG-025",
+          "sku": null,
+          "name": "Orange · 25 pieces · 25 pieces",
+          "position": 11,
+          "active": true,
+          "attributes": {
+            "color": "Orange",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-ORG-300",
+          "sku": null,
+          "name": "Orange · 300 pieces · 300 pieces",
+          "position": 12,
+          "active": true,
+          "attributes": {
+            "color": "Orange",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-ORG-050",
+          "sku": null,
+          "name": "Orange · 50 pieces · 50 pieces",
+          "position": 13,
+          "active": true,
+          "attributes": {
+            "color": "Orange",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-RED-100",
+          "sku": null,
+          "name": "Red · 100 pieces · 100 pieces",
+          "position": 14,
+          "active": true,
+          "attributes": {
+            "color": "Red",
+            "option": "100 pieces",
+            "panel": "100 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-RED-010",
+          "sku": null,
+          "name": "Red · 10 pieces · 10 pieces",
+          "position": 15,
+          "active": true,
+          "attributes": {
+            "color": "Red",
+            "option": "10 pieces",
+            "panel": "10 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-RED-025",
+          "sku": null,
+          "name": "Red · 25 pieces · 25 pieces",
+          "position": 16,
+          "active": true,
+          "attributes": {
+            "color": "Red",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-RED-300",
+          "sku": null,
+          "name": "Red · 300 pieces · 300 pieces",
+          "position": 17,
+          "active": true,
+          "attributes": {
+            "color": "Red",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-RED-050",
+          "sku": null,
+          "name": "Red · 50 pieces · 50 pieces",
+          "position": 18,
+          "active": true,
+          "attributes": {
+            "color": "Red",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-WHT-100",
+          "sku": null,
+          "name": "White · 100 pieces · 100 pieces",
+          "position": 19,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "100 pieces",
+            "panel": "100 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-WHT-010",
+          "sku": null,
+          "name": "White · 10 pieces · 10 pieces",
+          "position": 20,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "10 pieces",
+            "panel": "10 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-WHT-025",
+          "sku": null,
+          "name": "White · 25 pieces · 25 pieces",
+          "position": 21,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-WHT-300",
+          "sku": null,
+          "name": "White · 300 pieces · 300 pieces",
+          "position": 22,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-WHT-050",
+          "sku": null,
+          "name": "White · 50 pieces · 50 pieces",
+          "position": 23,
+          "active": true,
+          "attributes": {
+            "color": "White",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-YEL-100",
+          "sku": null,
+          "name": "Yellow · 100 pieces · 100 pieces",
+          "position": 24,
+          "active": true,
+          "attributes": {
+            "color": "Yellow",
+            "option": "100 pieces",
+            "panel": "100 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-YEL-025",
+          "sku": null,
+          "name": "Yellow · 25 pieces · 25 pieces",
+          "position": 25,
+          "active": true,
+          "attributes": {
+            "color": "Yellow",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-YEL-300",
+          "sku": null,
+          "name": "Yellow · 300 pieces · 300 pieces",
+          "position": 26,
+          "active": true,
+          "attributes": {
+            "color": "Yellow",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-COL-YEL-050",
+          "sku": null,
+          "name": "Yellow · 50 pieces · 50 pieces",
+          "position": 27,
+          "active": true,
+          "attributes": {
+            "color": "Yellow",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PNK-010",
+          "sku": null,
+          "name": "Pink · 10 pieces · 10 pieces",
+          "position": 28,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "10 pieces",
+            "panel": "10 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PNK-025",
+          "sku": null,
+          "name": "Pink · 25 pieces · 25 pieces",
+          "position": 29,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PNK-300",
+          "sku": null,
+          "name": "Pink · 300 pieces · 300 pieces",
+          "position": 30,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PNK-050",
+          "sku": null,
+          "name": "Pink · 50 pieces · 50 pieces",
+          "position": 31,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PUR-010",
+          "sku": null,
+          "name": "Purple · 10 pieces · 10 pieces",
+          "position": 32,
+          "active": true,
+          "attributes": {
+            "color": "Purple",
+            "option": "10 pieces",
+            "panel": "10 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PUR-025",
+          "sku": null,
+          "name": "Purple · 25 pieces · 25 pieces",
+          "position": 33,
+          "active": true,
+          "attributes": {
+            "color": "Purple",
+            "option": "25 pieces",
+            "panel": "25 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PUR-300",
+          "sku": null,
+          "name": "Purple · 300 pieces · 300 pieces",
+          "position": 34,
+          "active": true,
+          "attributes": {
+            "color": "Purple",
+            "option": "300 pieces",
+            "panel": "300 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "OBL-PAS-PUR-050",
+          "sku": null,
+          "name": "Purple · 50 pieces · 50 pieces",
+          "position": 35,
+          "active": true,
+          "attributes": {
+            "color": "Purple",
+            "option": "50 pieces",
+            "panel": "50 pieces",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        }
+      ],
+      "channels": []
+    },
+    {
+      "id": "carrot-bookshelf",
+      "name": "Carrot Bookshelf",
+      "publication": {
+        "workflow": "draft",
+        "lifecycle": "active",
+        "visible": true
+      },
+      "verification": {
+        "status": "conflict",
+        "sourceLabel": "CONFLICT"
+      },
+      "copy": {
+        "eyebrow": "A HOME FOR FAVORITE STORIES",
+        "headline": "Make a little reading corner.",
+        "intro": "Explore the Carrot Bookshelf and compare its recorded shelf-and-bin configurations.",
+        "description": "Give books a place in your room and explore the two bookshelf types recorded in the catalog. Browse the product views, compare the configuration names and confirm the measurements and color for your chosen listing.",
+        "guideTitle": "Plan a reading corner",
+        "guideBody": "Think about the wall space, access to books and the floor area around the shelf. The catalog has a product-level dimension reference, but dimensions for each type are still under review, so confirm the specific configuration before planning a tight fit.",
+        "accent": "#F5C36D",
+        "details": [
+          {
+            "label": "Recorded types",
+            "value": "3 Layer Tier + 3 bin; 4 Layer Tier, no bin"
+          },
+          {
+            "label": "Recorded colors",
+            "value": "White and Gray; confirm the color for your chosen type"
+          },
+          {
+            "label": "Dimensions per type",
+            "value": "Still under review in the product master"
+          }
+        ],
+        "questions": [
+          {
+            "q": "How do the two types differ?",
+            "a": "The recorded option names distinguish a type with bins and a type without bins. Confirm the exact shelf and bin arrangement against the matching product photographs."
+          },
+          {
+            "q": "Can I use one dimension set for both?",
+            "a": "The product master flags dimensions per type for review. Check the exact listing measurements before ordering."
+          }
+        ]
+      },
+      "media": {
+        "gallery": [
+          {
+            "position": 0,
+            "kind": "image",
+            "url": null,
+            "assetId": "bookshelf",
+            "mime": "image/jpeg",
+            "alt": "Carrot Bookshelf — Product view",
+            "label": "Product view"
+          },
+          {
+            "position": 1,
+            "kind": "image",
+            "url": null,
+            "assetId": "bookshelfRoom",
+            "mime": "image/jpeg",
+            "alt": "Carrot Bookshelf — In a reading corner",
+            "label": "In a reading corner"
+          }
+        ],
+        "installationVideoUrl": null,
+        "productVideo": null
+      },
+      "options": [
+        {
+          "id": "CRT-3T3B",
+          "sku": null,
+          "name": "White / Gray · 3 Layer Tier + 3 bin",
+          "position": 0,
+          "active": true,
+          "attributes": {
+            "color": "White / Gray",
+            "option": "3 Layer Tier + 3 bin",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "CRT-4T",
+          "sku": null,
+          "name": "White / Gray · 4 Layer Tier, no bin",
+          "position": 1,
+          "active": true,
+          "attributes": {
+            "color": "White / Gray",
+            "option": "4 Layer Tier, no bin",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "conflict",
+            "sourceLabel": "CONFLICT"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        }
+      ],
+      "channels": []
+    },
+    {
+      "id": "storage-rack",
+      "name": "Storage Rack",
+      "publication": {
+        "workflow": "draft",
+        "lifecycle": "active",
+        "visible": true
+      },
+      "verification": {
+        "status": "needs_review",
+        "sourceLabel": "NEEDS REVIEW"
+      },
+      "copy": {
+        "eyebrow": "MAKE ROOM FOR THE NEXT ADVENTURE",
+        "headline": "A place for playtime essentials.",
+        "intro": "Explore rack layouts and compare the recorded bin configurations for your room.",
+        "description": "Start with the color, then compare the bin arrangement recorded for each rack option. The family photograph and draft 3D animation introduce the collection; verify the exact bin layout and dimensions for the option you choose.",
+        "guideTitle": "See the storage layout",
+        "guideBody": "Compare small and large bin counts as one configuration. Bins included in a rack are different from the number of complete racks purchased. Confirm the matching layout and overall dimensions in the store before ordering.",
+        "accent": "#9ECFC3",
+        "details": [
+          {
+            "label": "Choose by",
+            "value": "Color and complete bin configuration"
+          },
+          {
+            "label": "Video in this draft",
+            "value": "A 3D concept animation, not an assembly guide"
+          },
+          {
+            "label": "Dimensions and contents",
+            "value": "Confirm for the selected rack configuration"
+          }
+        ],
+        "questions": [
+          {
+            "q": "Does the bin count mean the number of racks?",
+            "a": "No. It describes the bin configuration of one rack. Choose the number of complete racks in the store."
+          },
+          {
+            "q": "Can I follow the video for assembly?",
+            "a": "The embedded clip is a draft 3D turntable animation. It is not a verified assembly guide or proof of a particular variation's appearance."
+          }
+        ]
+      },
+      "media": {
+        "gallery": [
+          {
+            "position": 0,
+            "kind": "image",
+            "url": null,
+            "assetId": "rack",
+            "mime": "image/png",
+            "alt": "Storage Rack — Family reference",
+            "label": "Family reference"
+          },
+          {
+            "position": 1,
+            "kind": "image",
+            "url": null,
+            "assetId": "rackVideoPoster",
+            "mime": "image/png",
+            "alt": "Storage Rack — Concept animation still",
+            "label": "Concept animation still"
+          }
+        ],
+        "installationVideoUrl": null,
+        "productVideo": {
+          "url": null,
+          "assetId": "rackVideo",
+          "mime": "video/mp4",
+          "posterAssetId": "rackVideoPoster",
+          "caption": "A 3D concept animation, not an assembly guide"
+        }
+      },
+      "options": [
+        {
+          "id": "RCK-BLU-12S4B",
+          "sku": null,
+          "name": "Blue · 12 small + 4 big bins",
+          "position": 0,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "12 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-BLU-16S",
+          "sku": null,
+          "name": "Blue · 16 small bins",
+          "position": 1,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "16 small bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-BLU-20S",
+          "sku": null,
+          "name": "Blue · 20 small bins",
+          "position": 2,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "20 small bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-BLU-8S4B",
+          "sku": null,
+          "name": "Blue · 8 small + 4 big bins",
+          "position": 3,
+          "active": true,
+          "attributes": {
+            "color": "Blue",
+            "option": "8 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-GRY-12S4B",
+          "sku": null,
+          "name": "Gray · 12 small + 4 big bins",
+          "position": 4,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "12 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-GRY-8S4B",
+          "sku": null,
+          "name": "Gray · 8 small + 4 big bins",
+          "position": 5,
+          "active": true,
+          "attributes": {
+            "color": "Gray",
+            "option": "8 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-MWH-12S4B",
+          "sku": null,
+          "name": "Milk White · 12 small + 4 big bins",
+          "position": 6,
+          "active": true,
+          "attributes": {
+            "color": "Milk White",
+            "option": "12 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-MWH-16S",
+          "sku": null,
+          "name": "Milk White · 16 small bins",
+          "position": 7,
+          "active": true,
+          "attributes": {
+            "color": "Milk White",
+            "option": "16 small bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-MWH-20S",
+          "sku": null,
+          "name": "Milk White · 20 small bins",
+          "position": 8,
+          "active": true,
+          "attributes": {
+            "color": "Milk White",
+            "option": "20 small bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-MWH-8S4B",
+          "sku": null,
+          "name": "Milk White · 8 small + 4 big bins",
+          "position": 9,
+          "active": true,
+          "attributes": {
+            "color": "Milk White",
+            "option": "8 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-PNK-12S4B",
+          "sku": null,
+          "name": "Pink · 12 small + 4 big bins",
+          "position": 10,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "12 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-PNK-20S",
+          "sku": null,
+          "name": "Pink · 20 small bins",
+          "position": 11,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "20 small bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-PNK-8S4B",
+          "sku": null,
+          "name": "Pink · 8 small + 4 big bins",
+          "position": 12,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "8 small + 4 big bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        },
+        {
+          "id": "RCK-PNK-16S",
+          "sku": null,
+          "name": "Pink · 16 small bins",
+          "position": 13,
+          "active": true,
+          "attributes": {
+            "color": "Pink",
+            "option": "16 small bins",
+            "panel": "",
+            "match": "Yes"
+          },
+          "verification": {
+            "status": "needs_review",
+            "sourceLabel": "NEEDS REVIEW"
+          },
+          "price": {
+            "currency": "PHP",
+            "amountMinor": null,
+            "comparisonMinor": null
+          },
+          "channels": []
+        }
+      ],
+      "channels": []
+    }
+  ]
+}
