@@ -46,7 +46,9 @@
     "lint:fix": "next lint --fix",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,md,json}\"",
     "serve": "next start",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "test": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --import ./scripts/register-catalog-tests.mjs --test src/lib/catalog/catalog.test.ts",
+    "catalog:check": "node --disable-warning=MODULE_TYPELESS_PACKAGE_JSON --experimental-strip-types --import ./scripts/register-catalog-tests.mjs scripts/check-catalog.ts"
   },
   "dependencies": {
     "@dhiwise/component-tagger": "^1.0.16",

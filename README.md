@@ -64,6 +64,14 @@ This project uses Tailwind CSS for styling with the following features:
 - `npm run lint` - Run ESLint to check code quality
 - `npm run lint:fix` - Fix ESLint issues automatically
 - `npm run format` - Format code with Prettier
+- `npm test` - Validate the catalog contract and the committed export
+- `npm run catalog:check` - Print exported vs published product counts
+
+## Catalog data
+
+Product records for the site are committed in `src/data/catalog/published-catalog.json` (contract version 1). The homepage loads that file at build time and keeps only rows that are published and verified. The current file is the admin snapshot from 5 November 2026: 6 collections and 206 options, all still NEEDS REVIEW or CONFLICT, so nothing new is shown.
+
+How a catalog change is reviewed, and the export the admin app still needs to add, is in [docs/catalog-bridge.md](docs/catalog-bridge.md).
 
 ## 📱 Deployment
 
